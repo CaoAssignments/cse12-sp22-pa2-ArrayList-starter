@@ -15,6 +15,10 @@ import static org.junit.Assert.*;
 
 import org.junit.*;
 
+
+/**
+ * TODO: Add your class header (1-2 sentences)
+ */
 public class MyArrayListHiddenTester {
 
     /**

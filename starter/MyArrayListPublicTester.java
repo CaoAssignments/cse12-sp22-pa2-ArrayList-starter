@@ -1,4 +1,3 @@
-
 /**
  * This file contains all the public tests(visible on Gradescope)
  * Use this as a guide to write tests to verify your MyArrayList implementation 
@@ -7,6 +6,14 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 
+/**
+ * This class creates a test fixture and runs multiple tests on 
+ * your implementation for MyArrayList.  
+ * 
+ * Instance variables:
+ * arr - Object array that will be used to set up the test fixture
+ * arrInts - Integer array that will be used to set up the test fixture
+ */
 public class MyArrayListPublicTester {
 
     static final int DEFAULT_CAPACITY = 5;
