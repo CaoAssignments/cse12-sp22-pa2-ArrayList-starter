@@ -8,30 +8,30 @@
  */
 public interface MyList<E> {
 
-    void expandCapacity(int requiredCapacity);
-    
+	void expandCapacity(int requiredCapacity);
+	
 
-    int getCapacity();
-    
+	int getCapacity();
+	
 
-    void insert(int index, E element);
-    
-    
-    void append(E element);
-    
-    
-    void prepend(E element);
-    
-    
-    E get(int index);
+	void insert(int index, E element);
+	
+	
+	void append(E element);
+	
+	
+	void prepend(E element);
+	
+	
+	E get(int index);
 
-    
-    E set(int index, E element);
-    
+	
+	E set(int index, E element);
+	
 
-    E remove(int index);
-    
+	E remove(int index);
+	
 
-    int size();
-    
+	int size();
+	
 }
