@@ -12,9 +12,11 @@
  /**
   * TODO: Add your class header for MyArrayList
   */
-  
+
  /**
  * TODO: Add your implementation of MyArrayList here
+ * 
+ * DON'T FORGET TO ALSO ADD METHOD HEADERS FOR ALL OF YOUR METHODS!
  */
 
  // Hint: the 'capacity' (length of data array) is not the same as the 'size'
