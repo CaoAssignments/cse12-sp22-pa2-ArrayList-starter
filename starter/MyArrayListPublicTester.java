@@ -130,14 +130,13 @@ public class MyArrayListPublicTester {
 
 		assertEquals("should insert 5 to the list", 5, listWithNull.data[0]);
 		assertEquals("should increment size", 11, listWithNull.size);
-		assertEquals("capacity of the list should not change when insert 
-			one elem", 20, listWithNull.data.length);
+		assertEquals("capacity of the list should not change when" + 
+			"insert one elem", 20, listWithNull.data.length);
 
-		assertEquals("should insert 5 to the list", 100, 
-			listCustomCapacity.data[0]);
+		assertEquals("should insert 5 to the list", 100, listCustomCapacity.data[0]);
 		assertEquals("should increment size", 1, listCustomCapacity.size);
-		assertEquals("capacity of the list should not change when insert 
-			one elem", 3, listCustomCapacity.data.length);
+		assertEquals("capacity of the list should not change when" + 
+			"insert one elem", 3, listCustomCapacity.data.length);
 	}
 
 	/*
